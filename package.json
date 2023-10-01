@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "flickr-sdk": "^6.0.0"
+  }
+}

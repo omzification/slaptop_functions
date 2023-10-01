@@ -1,0 +1,26 @@
+﻿{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "message",
+      "direction": "out",
+      "type": "sendGrid",
+      "apiKey": "SendGrid",
+      "to": "[EMAIL]"
+    }
+  ]
+}
